@@ -212,9 +212,16 @@ body {
     margin: 0 auto;
 }
 
-article {
+article.article-services {
     background-color: rgb(240, 239, 239);
     border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+}
+
+article.article-vision {
     margin: 15px;
     padding: 10px;
     display: inline-block;
@@ -230,4 +237,18 @@ button {
 
 .facts {
     display: inline-flexbox;
+}
+
+footer {
+    margin: 0auto;
+    padding: 50px;
+    text-align: center;
+}
+
+div.facts {
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
 }
