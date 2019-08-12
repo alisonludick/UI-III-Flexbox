@@ -180,6 +180,7 @@ body {
 
 .navigation {
     margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -193,11 +194,29 @@ body {
     align-items: flex-start;
 }
 
+.feat-about {
+    margin-top: 50px;
+    margin-left: 70px;
+    /* align-content: space-around; */
+    /* justify-content: space-between; */
+}
+
+.innovation {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
 .bottom-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
+}
+
+.middle-img {
+    padding-left: 40px;
+    margin-left: 100px;
 }
 
 .middle-img,
@@ -207,18 +226,38 @@ body {
     margin: 25px;
 }
 
-.intro-services {
-    width: 800px;
-    margin: 0 auto;
+.offerings {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
 }
 
-article.article-services {
+.intro-services {
+    width: 800px;
+    /* margin: 0 auto; */
+    margin-left: 70px;
+}
+
+
+/* .article-services {
+    margin-left: 100px;
+} */
+
+.article-services {
     background-color: rgb(240, 239, 239);
     border: 1px solid black;
-    margin: 15px;
+    /* margin: 15px; */
     padding: 10px;
     display: inline-block;
     width: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.intro-services,
+.services-body {
+    margin-bottom: 50px;
 }
 
 article.article-vision {
@@ -231,12 +270,17 @@ article.article-vision {
 button {
     border: 0.5px solid black;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 5px 20px;
 }
 
 .facts {
     display: inline-flexbox;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-left: 70px;
 }
 
 footer {
